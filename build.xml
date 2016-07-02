@@ -11,7 +11,7 @@
     <description>Builds, tests, and runs the project GesNote.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
-
+   
     There exist several targets which are by default empty and which can be 
     used for execution of your tasks. These targets are usually executed 
     before and after some main targets. They are: 
@@ -51,7 +51,8 @@
                 <arg file="${dist.jar}"/>
             </exec>
         </target>
-
+    
+    
     Notice that overridden target depends on jar target and not only on 
     compile target as regular run target does. Again, for list of available 
     properties which you can use check the target you are overriding in 
